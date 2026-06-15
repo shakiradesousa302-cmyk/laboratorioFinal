@@ -40,5 +40,10 @@ public class Empleado {
 	    public String toString() {
 	        return "Empleado [ID=" + idEmpleado + ", Nombre=" + nombre + ", Cargo=" + cargo + "]";
 	    }
+
+		public double calcularSubtotal() {
+			// TODO Auto-generated method stub
+			return 0;
+		}
 	}
-}
+

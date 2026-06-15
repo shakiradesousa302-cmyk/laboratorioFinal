@@ -30,4 +30,4 @@ public class Cliente {
 	        return "Cliente [ID=" + idCliente + ", Nombre=" + nombre + ", Teléfono=" + telefono + ", Dirección=" + direccion + "]";
 	    }
 	}
-}
+

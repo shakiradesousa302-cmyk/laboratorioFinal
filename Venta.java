@@ -3,31 +3,31 @@ package proyecto;
 public class Venta {
 
     private int idVenta;
-    private Cliente cliente;
-    private Empleado empleado;
-    private DetalleVenta detalle;
+    private String cliente;
+    private Cliente empleado;
+    private Empleado detalle;
 
-    public Venta(int idVenta, Cliente cliente,
-                 Empleado empleado, DetalleVenta detalle) {
+    public Venta(int idVenta, String string,
+                 Cliente cliente2, Empleado empleado2) {
         this.idVenta = idVenta;
-        this.cliente = cliente;
-        this.empleado = empleado;
-        this.detalle = detalle;
+        this.cliente = string;
+        this.empleado = cliente2;
+        this.detalle = empleado2;
     }
 
     public int getIdVenta() {
         return idVenta;
     }
 
-    public Cliente getCliente() {
+    public String getCliente() {
         return cliente;
     }
 
-    public Empleado getEmpleado() {
+    public Cliente getEmpleado() {
         return empleado;
     }
 
-    public DetalleVenta getDetalle() {
+    public Empleado getDetalle() {
         return detalle;
     }
 
@@ -38,8 +38,13 @@ public class Venta {
     @Override
     public String toString() {
         return "Venta #" + idVenta +
-               "\nCliente: " + cliente.getNombre() +
+               "\nCliente: " + cliente.getBytes() +
                "\nEmpleado: " + empleado.getNombre() +
                "\nTotal: $" + calcularTotal();
     }
+
+	public void agregarDetalle(DetalleVenta d1) {
+		// TODO Auto-generated method stub
+		
+	}
 }

@@ -10,7 +10,11 @@ public class DetalleVenta {
         this.cantidad = cantidad;
     }
 
-    public Producto getProducto() {
+    public DetalleVenta(int i, int j, Producto p1) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Producto getProducto() {
         return producto;
     }
 
