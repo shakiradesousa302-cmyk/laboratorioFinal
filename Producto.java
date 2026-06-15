@@ -8,6 +8,7 @@ public class Producto {
 	    private int cantidadMax;
 	    private int cantidadMin;
 	    private Categoria categoria;
+		private int idProducto;
 
 	    public Producto(int id, String nombre, double pC, double pV, Categoria cat) {
 	        this.idProducto = id;
