@@ -21,6 +21,7 @@ public class Main {
     }
 
 		 // 1. Crear Entidades Base
+		System.out.println("Iniciando el proceso de venta...");
         Cliente cliente = new Cliente(1, "Carlos Mendoza", "7788-9900");
         Empleado empleado = new Empleado(101, "Ana Gómez", "Cajera");
         Categoria categoria = new Categoria(5, "Electrónicos");
