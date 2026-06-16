@@ -1,4 +1,4 @@
-package proyecto;
+
 
 public class Empleado {
 	  private int idEmpleado;
