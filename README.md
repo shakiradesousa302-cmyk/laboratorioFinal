@@ -1,6 +1,6 @@
 # laboratorioFinal
 Proyecto final 
 ## Integrantes
--Alex Dominguez
--Armando Diaz
--Tatiana González
+-Alex Antonio Dominguez Herrera
+-Armando Enmanuel Diaz Montano
+-Tatiana Gabriela González Zavaleta

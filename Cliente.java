@@ -1,4 +1,3 @@
-package proyecto;
 
 public class Cliente {
 	    private int idCliente;
